@@ -1,0 +1,157 @@
+/*this is the main code*/
+
+* {
+	background-size: cover;
+	background-position: center;
+}
+
+html, body, section {
+	height: 100%;
+	min-height: 550px;
+	min-width: 900px;
+}
+
+body {
+	background-color: teal; 
+}
+
+section h2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	text-transform: uppercase;
+	background-color: black;
+	font-size: 25pt;
+	padding: 10px;
+	margin-top:50px;
+	color:white;
+}
+
+h2:hover{ 
+color:crimson;
+}
+
+p {
+	background-color: black;
+	padding: 10px;
+	font-size: 15px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	line-height: 25pt;
+	margin-top: 20px;
+	color:white;
+}
+
+section {
+	display: flex;
+	color: white;
+}
+
+/*this is for the first section*/
+
+section.title {
+	background-image: url(narkomfin4edit.jpg);
+	color: white;
+	}
+
+section.title article,
+#history article,
+#today article {
+	width:75%;
+	margin: auto;
+}
+
+section h1 {
+	font-size: 44px;
+	font-weight: bold;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	background-color: black;
+	padding: 20px;
+	}
+
+section.title h1:hover{ 
+	color: red;
+	}
+
+section h1 span {
+	text-transform: uppercase;
+	color: teal;
+	}
+
+section.title p {
+	margin-top: auto;
+	line-height: 1.2;
+	font-size: 20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+	}
+
+/*this is for the second section*/
+
+section.twoColumns figcaption { 
+	width:60%;
+}
+
+section.twoColumns figure {
+	width: 40%;
+	height: 100%;
+	background-image: url(images/figure1.jpg);
+}
+
+#architecture figure {
+	background-image: url(images/figure2.jpg)
+}
+
+#architecture {height: 1000px; }
+
+#ideology {height: 400px;}
+
+section.twoColumns article{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#history {
+	flex-direction:column;
+}
+
+#history figure {
+	background-image: url(images/figure3.jpg);
+	height: 50%;
+/*	margin-bottom: 10px;*/
+}
+
+#history figcaption {
+	height: 50%;
+	margin: 0 auto;
+}
+
+#today article {
+	margin: 0 auto;
+}
+
+.spoiler {
+  display: flex;
+  text-align: center;
+}
+
+
+.spoiler .icon {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+  border-radius: 90px;
+}
+
+.spoiler .icon:hover{  
+	background-color: crimson;
+	background-image: none !important;	
+	} 
+
+#victim1  {background-image: url(images/victim1.jpg); }
+
+#victim2  {background-image: url(images/victim2.jpg);}
+
+#victim3  {background-image: url(images/victim3.jpg);}
+
+.spoiler li {
+  width: 33.33%;
+  padding: 20px 0 0 0;
+}
+
